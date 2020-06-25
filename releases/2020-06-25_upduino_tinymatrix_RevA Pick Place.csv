@@ -1,0 +1,22 @@
+Altium Designer Pick and Place Locations
+C:\Users\matt\Desktop\upduino_tinymatrix\Project Outputs for upduino_tinymatrix\Pick Place\Pick Place for upduino_tinymatrix.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       25/06/20
+Time:       16:38
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Footprint","Center-X(mm)","Center-Y(mm)","Ref-X(mm)","Ref-Y(mm)","Pad-X(mm)","Pad-Y(mm)","Layer","Rotation","Comment"
+"J1","1757242","130.8100","102.2350","130.8100","102.2350","133.3500","102.2350","TopLayer","90","1757242"
+"OUT1","1.27mm_2x5_SMD_Header","164.5100","91.4400","164.5100","91.4400","162.5600","93.9800","TopLayer","270","ARM Cortex JTAG"
+"P2","HDR1X18","157.4800","87.6300","157.4800","109.2200","157.4800","109.2200","TopLayer","270","Header 18"
+"P4","HDR1X8","125.7300","86.3600","125.7300","95.2500","125.7300","95.2500","TopLayer","270","Header 8"
+"P1","HDR1X16","139.7000","85.0900","139.7000","104.1400","139.7000","104.1400","TopLayer","270","Header 16"
+"OUT3","1.27mm_2x5_SMD_Header","132.6700","69.8500","132.6700","69.8500","130.7200","72.3900","TopLayer","270","ARM Cortex JTAG"
+"OUT2","1.27mm_2x5_SMD_Header","164.5100","69.8500","164.5100","69.8500","162.5600","72.3900","TopLayer","270","ARM Cortex JTAG"
+"P3","HDR1X2","153.6700","66.0400","154.9400","66.0400","154.9400","66.0400","TopLayer","180","Header 2"
+"P5","HDR1X2","153.6700","62.8650","152.4000","62.8650","152.4000","62.8650","TopLayer","360","5V to Upd."
