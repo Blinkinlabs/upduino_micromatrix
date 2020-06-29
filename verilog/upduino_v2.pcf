@@ -1,0 +1,39 @@
+set_io LED_R	41
+set_io LED_B	39
+set_io LED_G	40
+
+set_io SDO_1    18
+set_io DCLK_1   19
+set_io LE_1     11
+set_io GCLK_1   13
+set_io A_1      9
+set_io B_1      21
+set_io C_1      6
+set_io D_1      12
+
+set_io SDO_2    45
+set_io DCLK_2   48
+set_io LE_2     47
+set_io GCLK_2   3
+set_io A_2      46
+set_io B_2      4
+set_io C_2      2
+set_io D_2      44
+
+set_io SDO_3    43
+set_io DCLK_3   36
+set_io LE_3     34
+set_io GCLK_3   42
+set_io A_3      37
+set_io B_3      38
+set_io C_3      31
+set_io D_3      28
+
+
+
+#set_io DEBUG_0  23
+#set_io DEBUG_1  25
+#set_io DEBUG_2  26
+#set_io DEBUG_3  27
+#set_io DEBUG_4  32
+#set_io DEBUG_5  35
