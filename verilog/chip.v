@@ -35,6 +35,24 @@ module chip (
 
 	wire clk;
 
+	wire LED_R_PWM, LED_G_PWM, LED_B_PWM;
+
+    SB_RGBA_DRV #(
+        .CURRENT_MODE("0b1"),       // half current
+        .RGB0_CURRENT("0b000001"),  // 4 mA
+        .RGB1_CURRENT("0b000001"),  // 4 mA
+        .RGB2_CURRENT("0b000001")   // 4 mA
+    ) RGBA_DRIVER (
+        .CURREN(1'b1),
+        .RGBLEDEN(1'b1),
+        .RGB0PWM(LED_B_PWM),       // Blue
+        .RGB1PWM(LED_R_PWM),         // Red
+        .RGB2PWM(LED_G_PWM),     // Green
+        .RGB0(LED_B),
+        .RGB1(LED_R),
+        .RGB2(LED_G)
+    );
+
 	SB_HFOSC u_hfosc (
         	.CLKHFPU(1'b1),
         	.CLKHFEN(1'b1),
@@ -44,9 +62,9 @@ module chip (
 	blink blink_1 (
 		.clk(clk),
 		.rst(0),
-    		.led_r(LED_R),
-    		.led_g(LED_G),
-    		.led_b(LED_B)
+    		.led_r(LED_R_PWM),
+    		.led_g(LED_G_PWM),
+    		.led_b(LED_B_PWM)
 	);
 
     matrix matrix_1 (

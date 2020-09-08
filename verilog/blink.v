@@ -44,9 +44,9 @@ module blink(
         wire [15:0] correction;
         
 
-        assign led_r = !leds[0];
-        assign led_g = !leds[1];
-        assign led_b = !leds[2];
+        assign led_r = leds[0];
+        assign led_g = leds[1];
+        assign led_b = leds[2];
 
         assign state = count[29:28];
         assign direction = count[27];
